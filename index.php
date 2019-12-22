@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: install
- * Date: 22. 12. 2019
- * Time: 16:49
- */
+session_start();
+
+include 'load.php';
+
+
+//$db = new Connection();
+
+
+//$db->closeConnection();
+//$db->getDBH();
